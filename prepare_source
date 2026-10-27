@@ -1,3 +1,6 @@
-snapshot_timestamp=1792614398
+pkg=acl
+version=2.4.0-1gl0
+snapshot_gl_version=2370
+snapshot_timestamp=$(pkg_version_in_gl_version "$pkg" "$version" "$snapshot_gl_version" 30)
 snapshot_src acl "$snapshot_timestamp"
 version_suffix="gl0~bp1877"
